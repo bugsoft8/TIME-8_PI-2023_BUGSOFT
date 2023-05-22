@@ -1,49 +1,73 @@
 .main {
-    height: 844px;
-    width: 390px;
-
-
+    width: 100vw;
+    height: 100vh;
 }
 
-.main_page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+ul {
+    list-style: circle;
 }
 
-.main_page>img {
+
+.main>img {
     margin-right: 80px;
     margin-left: 80px;
     margin-top: 76px;
 }
 
-.main_page>h1 {
-    position: absolute;
-    top: 27px;
+.main>h1 {
+    display: flex;
+    justify-content: center;
     font-weight: 400;
     font-size: 45px;
     line-height: 52px;
-    margin-top: 333px;
+
+
 }
 
 .cadastro_user {
     display: flex;
     flex-direction: column;
-    position: absolute;
     margin-left: 11px;
-    top: 433px;
-    height: 32px;
     font-weight: 400;
     font-size: 24px;
     line-height: 32px;
 
 }
 
-.cadastro_user > input {
-    margin-left: 23px;
+.cadastro {
     width: 280px;
     height: 25px;
     border-radius: 60px;
     border-width: 0.5px;
+    padding-left: 13px;
+}
+
+fieldset {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    gap: 11px;
+    margin-top: 20px;
+}
+
+.pass_content>p {
+    display: flex;
+    margin-left: 6px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 6px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    width: 358px;
+    height: 46px;
+    border: none;
+    border-radius: 60px;
+    background-color: linear-gradient(265.34deg, #1D4626 -100.85%, #00ECCB 52.47%);
 }
