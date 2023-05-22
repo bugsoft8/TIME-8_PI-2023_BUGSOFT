@@ -1,3 +1,10 @@
+.main {
+    height: 844px;
+    width: 390px;
+
+
+}
+
 .main_page {
     display: flex;
     justify-content: center;
@@ -26,17 +33,16 @@
     position: absolute;
     margin-left: 11px;
     top: 433px;
-    width: 60px;
     height: 32px;
     font-weight: 400;
     font-size: 24px;
     line-height: 32px;
 }
 
-.cadastro {
+.cadastro_user > input {
     margin-left: 23px;
     width: 280px;
     height: 25px;
     border-radius: 60px;
-
+    border-width: 0.5px;
 }
