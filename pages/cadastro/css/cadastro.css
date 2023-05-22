@@ -64,10 +64,19 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 9px;
     margin-top: 35px;
     width: 358px;
     height: 46px;
     border: none;
     border-radius: 60px;
     background-color: linear-gradient(265.34deg, #1D4626 -100.85%, #00ECCB 52.47%);
+}
+
+button>p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: center;
 }
