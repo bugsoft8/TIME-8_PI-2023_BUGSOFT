@@ -1,4 +1,11 @@
-
+.Main {
+    width: 390px;
+    height: 844px;
+}
+.Main_graph{
+   width: 390px;
+   height: 317px; 
+}
 /* ------------------- Images Transition--------------- */
 .image_container {
     position: relative;
