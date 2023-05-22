@@ -4,7 +4,8 @@
     align-items: center;
 
 }
-.main_page>img{
+
+.main_page>img {
     margin-right: 80px;
     margin-left: 80px;
     margin-top: 76px;
@@ -19,6 +20,23 @@
     margin-top: 333px;
 }
 
-.cadastro_user{
-    margin-top: 443px;
+.cadastro_user {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-left: 11px;
+    top: 433px;
+    width: 60px;
+    height: 32px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.cadastro {
+    margin-left: 23px;
+    width: 280px;
+    height: 25px;
+    border-radius: 60px;
+
 }
