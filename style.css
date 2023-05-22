@@ -1,0 +1,35 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main {
+    width: 390px;
+    height: 844px;
+}
+
+.main_container {
+    width: 358px;
+    height: 291px;
+    margin: 0 auto 91px auto;
+}
+
+.container_title {
+    text-align: center;
+}
+
+.btn_large {
+    width: 358px;
+    height: 46px;
+    border: none;
+    border-radius: 8px;
+}
+
+.main_img {
+    margin-top: 20px;
+}
+
+.main_img > img {
+    transform: scale(1.3);
+}
