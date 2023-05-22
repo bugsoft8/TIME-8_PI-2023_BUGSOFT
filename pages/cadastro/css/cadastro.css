@@ -1,0 +1,24 @@
+.main_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main_page>img{
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-top: 76px;
+}
+
+.main_page>h1 {
+    position: absolute;
+    top: 27px;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 52px;
+    margin-top: 333px;
+}
+
+.cadastro_user{
+    margin-top: 443px;
+}
