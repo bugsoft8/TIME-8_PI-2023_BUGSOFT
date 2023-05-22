@@ -1,0 +1,23 @@
+.color_font-primary {
+    color: #1D192B;
+}
+
+.color_font-input {
+    color: #9F9F9F;
+}
+
+.color_font-white {
+    color: #FFFFFF;
+}
+
+.color_btn-green {
+    background: linear-gradient(265.34deg, #1D4626 -100.85%, #00ECCB 52.47%);
+}
+
+.color_btn-white {
+    background: linear-gradient(180deg, #FFFEFF 0%, #D7FFFE 72.14%);
+}
+
+.color_background {
+    background: linear-gradient(138.43deg, #43E97B 4.79%, #38F9D7 76.47%);
+}
