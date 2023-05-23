@@ -36,7 +36,8 @@
 .cadastro_email {
     width: 310px;
     height: 25px;
-    border-radius: 60px;
+    margin-right: 16px;
+    border-radius: 8px;
     border-width: 0.5px;
     padding-left: 13px;
     
@@ -47,7 +48,7 @@
     left: 93px;
     width: 203px;
     height: 25px;
-    border-radius: 60px;
+    border-radius: 8px;
     border-width: 0.5px;
     padding-left: 13px;
     
@@ -66,8 +67,6 @@ fieldset {
 .pass_content>p {
     display: flex;
     margin-left: 6px;
-    font-weight: 500;
-    font-size: 18px;
     margin-top: 20px;
     padding-left: 7px;
 }
