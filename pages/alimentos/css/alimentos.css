@@ -1,0 +1,96 @@
+.main {
+    width: 390px;
+    height: 1110px;
+}
+a {
+    text-decoration: none;
+}
+.header_alimentos {
+    width: 390px;
+    height: 129px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+.alimentos_titulo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-bottom: 8px;
+}
+.Icon_arrowl-left {
+    margin-top: 5px;
+}
+.title_2 {
+    color: white;
+}
+.titulo_icons {
+    margin-top: 6px;
+}
+hr {
+    border: none;
+    background-color: rgb(255, 255, 255, 0.5);
+    height: 1px;
+}
+.alimentos_filtros {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.alimentos_busca {
+    text-align: center;
+}
+.alimentos_busca > input {
+    width: 362px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+}
+.text_def {
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.alimento_container {
+    width: 358px;
+    height: 80px;
+    border: 1px solid black;
+}
+.container_titulo {
+    display: flex;
+    align-items: center;
+}
+.container_titulo >h2 {
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.container_titulo >p {
+    margin-left: 25px;
+    margin-right: 40px;
+}
+.alimento_container >p {
+    margin-left: 5px;  
+}
+.alimento_container >button {
+    width: 162px;
+    height: 25px;
+    margin-top: 4px;
+    margin-right: 8px;
+    text-align: center;
+    float: right;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+.coluna_alimento {
+    width: 358px;
+    height: 900px;
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.espaco {
+    height: 10px;
+}
