@@ -1,0 +1,131 @@
+.Main {
+    width: 390px;
+    height: 844px;
+}
+a {
+    text-decoration: none;
+    
+}
+.Main_graph{
+   width: 390px;
+   height: 317px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between; 
+
+}
+.graph_icons {
+    text-align: right;
+    margin-right: 16px;
+    margin-top: 18px;
+}
+.graph_img {
+    align-self: center;
+}
+.graph_btn {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 22px;
+}
+.graph_btn > button {
+    width: 102px;
+    height: 17px;
+    border-radius: 8px;
+    border-style: none;
+}
+.graph_btn > button {
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+/* ------------------- Images Transition--------------- */
+.image_container {
+    position: relative;
+    width: 390px;
+    height: 126px;
+    overflow: hidden;
+}
+.image_container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    animation: imageAnimation 9s infinite;
+}
+@keyframes imageAnimation {
+    0% {
+      opacity: 0;
+    }
+    33.33% {
+      opacity: 1;
+    }
+    66.66% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+}
+.image_container img:nth-child(1) {
+    animation-delay: 0s;
+}
+.image_container img:nth-child(2) {
+    animation-delay: 3s;
+}
+.image_container img:nth-child(3) {
+    animation-delay: 6s;
+}
+/* ------------------- Images Transition--------------- */
+.Main_dieta {
+    display: flex;
+    margin-left: 16px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+}
+.Main_dieta >img {
+    padding-left: 6px;
+}
+.container_refeicao {
+    height: 351px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 16px;
+}
+.Refeicao {
+    width: 359px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black ;
+    justify-content: space-around;
+}
+.Refeicao_title {
+    display: flex;
+    justify-content: space-between;
+}
+.Refeicao_texts {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.Refeicao > a {
+    align-self: flex-end;
+    margin-right: 8px;
+}
+
+.color_btn-green {
+    width: 162px;
+    height: 25px;
+    border-radius: 8px;
+    border-style: none;
+}
+.color_btn-green {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: white;
+}
