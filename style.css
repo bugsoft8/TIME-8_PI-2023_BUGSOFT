@@ -28,6 +28,7 @@
 
 .main_img {
     margin-top: 20px;
+    overflow: hidden;
 }
 
 .main_img > img {
