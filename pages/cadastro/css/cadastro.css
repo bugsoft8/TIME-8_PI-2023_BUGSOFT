@@ -71,7 +71,7 @@ fieldset {
     padding-left: 7px;
 }
 
-button {
+.btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,10 +84,13 @@ button {
     
 }
 
-button>p {
+.btn>p {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.15000000596046448px;
     text-align: center;
 }
+
+/* ------------------ Cadastro 02
+------------------*/
