@@ -4,6 +4,7 @@
 }
 a {
     text-decoration: none;
+    
 }
 .Main_graph{
    width: 390px;
@@ -110,10 +111,11 @@ a {
     padding-left: 8px;
     padding-right: 8px;
 }
-.Refeicao > button {
+.Refeicao > a {
     align-self: flex-end;
     margin-right: 8px;
 }
+
 .color_btn-green {
     width: 162px;
     height: 25px;
