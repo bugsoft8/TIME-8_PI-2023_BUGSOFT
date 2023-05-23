@@ -1,10 +1,8 @@
 .main {
-    width: 100vw;
-    height: 100vh;
-}
-
-ul {
-    list-style: circle;
+    height: 844px;
+    width: 390px;
+    margin-left: 11px;
+    
 }
 
 
@@ -17,6 +15,7 @@ ul {
 .main>h1 {
     display: flex;
     justify-content: center;
+    margin-top: 27px;
     font-weight: 400;
     font-size: 45px;
     line-height: 52px;
@@ -27,19 +26,31 @@ ul {
 .cadastro_user {
     display: flex;
     flex-direction: column;
-    margin-left: 11px;
+    margin-top: 60px;
     font-weight: 400;
     font-size: 24px;
     line-height: 32px;
 
 }
 
-.cadastro {
-    width: 280px;
+.cadastro_email {
+    width: 310px;
     height: 25px;
     border-radius: 60px;
     border-width: 0.5px;
     padding-left: 13px;
+    
+}
+
+.cadastro_senha {
+    position: absolute;
+    left: 93px;
+    width: 203px;
+    height: 25px;
+    border-radius: 60px;
+    border-width: 0.5px;
+    padding-left: 13px;
+    
 }
 
 fieldset {
@@ -51,13 +62,14 @@ fieldset {
     margin-top: 20px;
 }
 
+
 .pass_content>p {
     display: flex;
     margin-left: 6px;
     font-weight: 500;
     font-size: 18px;
-    line-height: 23px;
-    margin-top: 6px;
+    margin-top: 20px;
+    padding-left: 7px;
 }
 
 button {
@@ -69,8 +81,8 @@ button {
     width: 358px;
     height: 46px;
     border: none;
-    border-radius: 60px;
-    background-color: linear-gradient(265.34deg, #1D4626 -100.85%, #00ECCB 52.47%);
+    border-radius: 8px;
+    
 }
 
 button>p {
