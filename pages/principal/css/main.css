@@ -2,6 +2,9 @@
     width: 390px;
     height: 844px;
 }
+a {
+    text-decoration: none;
+}
 .Main_graph{
    width: 390px;
    height: 317px;
