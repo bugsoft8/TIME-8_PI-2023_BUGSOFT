@@ -4,7 +4,36 @@
 }
 .Main_graph{
    width: 390px;
-   height: 317px; 
+   height: 317px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between; 
+
+}
+.graph_icons {
+    text-align: right;
+    margin-right: 16px;
+    margin-top: 18px;
+}
+.graph_img {
+    align-self: center;
+}
+.graph_btn {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 22px;
+}
+.graph_btn > button {
+    width: 102px;
+    height: 17px;
+    border-radius: 8px;
+    border-style: none;
+}
+.graph_btn > button {
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
 }
 /* ------------------- Images Transition--------------- */
 .image_container {
