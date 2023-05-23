@@ -1,0 +1,43 @@
+.main {
+    width: 390px;
+    height: 844px;
+}
+.header_alimentos {
+    width: 390px;
+    height: 129px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+.alimentos_titulo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-bottom: 8px;
+}
+.title_2 {
+    color: white;
+}
+.titulo_icons {
+    margin-top: 6px;
+}
+hr {
+    border: none;
+    background-color: rgb(255, 255, 255, 0.5);
+    height: 1px;
+}
+.alimentos_filtros {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.alimentos_busca {
+    text-align: center;
+}
+.alimentos_busca > input {
+    width: 362px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+}
