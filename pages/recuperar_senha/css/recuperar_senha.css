@@ -1,0 +1,99 @@
+.Esqueceu_a_senha_1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    height: 844px;
+    width: 390px;
+
+}
+
+/*  */
+
+.titulo_esqueceu_1 {
+    display: flex;
+    width: 390px;
+    height: 187px;
+    align-items: center;
+    padding-left: 46px;
+    padding-bottom: 46px;
+    margin-right: 55px;
+} 
+
+.titulo_esqueceu_1 > h2 {
+    /* font-family: Roboto; */
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: 46px;
+    text-align: left;
+
+}
+
+/*  */
+
+.email_esqueceu_1{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 66px;
+}
+
+.email_esqueceu_1 > h4{
+    /* font-family: Roboto; */
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+}
+
+/*  */
+
+.mensagem_esqueceu_1{
+    display: flex;
+    margin-top: 6px;
+    margin-right: 55px;
+    text-align: left;
+}
+
+.mensagem_esqueceu_1 > p{
+    /* font-family: Roboto; */
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;   
+}
+
+/* */
+
+.input_esqueceu_1{
+    margin-top: 50px;
+    align-items: center;
+    height: 40px;
+    width: 340px;
+    left: 16px;
+    top: 367px;
+    border: 0.5px solid #000000;
+    border-radius: 8px;
+    padding-left: 14px;
+}
+
+/*  */
+
+.enviar_button_esqueceu_1 > button {
+    border: none;
+    margin-top: 20px;
+    height: 46px;
+    width: 358px;
+    border-radius: 8px;
+    background: linear-gradient(265.34deg, #1D4626 -100.85%, #00ECCB 52.47%);
+}
+
+
+.voltar_button_esqueceu_1 > button{
+    border: none;
+    margin-top: 287px;
+    height: 30px;
+    width: 129px;
+    border-radius: 8px;
+    border-radius: 8px;
+    background: linear-gradient(265.34deg, #1D4626 -100.85%, #00ECCB 52.47%);
+}
