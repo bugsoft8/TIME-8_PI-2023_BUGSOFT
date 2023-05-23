@@ -1,6 +1,7 @@
 .body {
     width: 390px;
     height: 844px;
+    background-color: #ffffff;
 }
 
 .header {
@@ -15,11 +16,45 @@
     padding-left: 17px;
 }
 
+.main_input {
+    height: 159px;
+    margin-top: 45px;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.input_field {
+    margin-bottom: 20px;
+}
 
+.input_field>input {
+    width: 308px;
+    height: 42px;
+    border-radius: 8px;
+    border: solid #000000 0.5px;
+    display: block;
+    margin-top: 30px;
+}
 
+.container_a {
+    text-decoration: none;
+    display: block;
+}
 
+.main_footer {
+    height: 109px;
+
+    position: absolute;
+    bottom: 30px;
+    padding-left: 16px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
 
 .btn_large {
     width: 358px;
