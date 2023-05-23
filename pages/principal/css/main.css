@@ -75,3 +75,52 @@
     animation-delay: 6s;
 }
 /* ------------------- Images Transition--------------- */
+.Main_dieta {
+    display: flex;
+    margin-left: 16px;
+    margin-top: 6pxgit ;
+    margin-bottom: 12px;
+}
+.Main_dieta >img {
+    padding-left: 6px;
+}
+.container_refeicao {
+    height: 351px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 16px;
+}
+.Refeicao {
+    width: 359px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black ;
+    justify-content: space-around;
+}
+.Refeicao_title {
+    display: flex;
+    justify-content: space-between;
+}
+.Refeicao_texts {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.Refeicao > button {
+    align-self: flex-end;
+    margin-right: 8px;
+}
+.color_btn-green {
+    width: 162px;
+    height: 25px;
+    border-radius: 8px;
+    border-style: none;
+}
+.color_btn-green {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: white;
+}
