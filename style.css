@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 390px;
+    height: 1055px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.header {
+    width: 390px;
+    height: 84px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(138.43deg, #43E97B 4.79%, #38F9D7 76.47%)
+}
+
+.seta {
+    padding: 7px;
+    box-shadow: 2px -2px 0 1px white inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(45deg);
+    
+}
+
+.nutricionistas {
+    color: white;
+    font-weight: 400px;
+    font-size: 24px;
+}
+
+.perfil {
+    background-image: url(./components/image/Icon_user-w.svg);
+    width: 20px;
+    height: 20px;
+}
