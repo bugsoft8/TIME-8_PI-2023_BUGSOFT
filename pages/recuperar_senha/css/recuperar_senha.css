@@ -22,10 +22,14 @@
 
 .titulo_esqueceu_1 > h2 {
     /* font-family: Roboto; */
-    font-size: 45px;
-    font-weight: 400;
+    display: flex;
     margin-top: 46px;
+    font-size: 46px;
+    font-weight: 400px;
+    line-height: 57px;
     text-align: left;
+    
+    
 
 }
 
@@ -39,6 +43,7 @@
 
 .email_esqueceu_1 > h4{
     /* font-family: Roboto; */
+    display: flex;
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
@@ -66,7 +71,8 @@
 
 .input_esqueceu_1{
     margin-top: 50px;
-    align-items: center;
+    margin-right: 20px;
+    align-items: left;
     height: 40px;
     width: 340px;
     left: 16px;
@@ -81,8 +87,9 @@
 .enviar_button_esqueceu_1 > button {
     border: none;
     margin-top: 20px;
+    margin-right: 20px;
     height: 46px;
-    width: 358px;
+    width: 340px;
     border-radius: 8px;
     background: linear-gradient(265.34deg, #1D4626 -100.85%, #00ECCB 52.47%);
 }
@@ -97,3 +104,7 @@
     border-radius: 8px;
     background: linear-gradient(265.34deg, #1D4626 -100.85%, #00ECCB 52.47%);
 }
+
+
+
+/* ---------------------------------SENHA_2-------------------------------------- */
