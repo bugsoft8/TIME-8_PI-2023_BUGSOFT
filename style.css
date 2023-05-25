@@ -11,6 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: white;
+    align-items: center;
 }
 
 .header {
@@ -41,4 +42,65 @@ body {
     background-image: url(./components/image/Icon_user-w.svg);
     width: 20px;
     height: 20px;
+}
+
+.box {
+    margin-top: 54px;
+    border: 1px solid black;
+    width: 358px;
+    height: 176px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(138.43deg, #43E97B 4.79%, #38F9D7 76.47%);
+}
+
+.logo {
+    margin-top: 2px;
+    width: 100px;
+    height: 100px;
+}
+
+.nutri {
+    margin-top: 5px;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 7.8px;
+}
+
+.sub {
+    color: white;
+    font-family: "roboto";
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.legenda {
+    width: 349px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leg--l {
+    font-size: 14px;
+    color: white;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: "roboto";
+}
+
+.box2 {
+    margin-top: 24px;
+    border: 1px solid black;
+    width: 358px;
+    height: 176px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(138.43deg, #43E97B 4.79%, #38F9D7 76.47%);
 }
