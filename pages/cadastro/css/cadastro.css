@@ -190,3 +190,8 @@ fieldset {
     margin-top: 127px;
     margin-left: 16px;
 }
+
+select{
+    border-radius: 8px;
+    
+}
