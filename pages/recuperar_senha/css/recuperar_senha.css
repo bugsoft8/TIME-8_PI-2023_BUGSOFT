@@ -203,27 +203,59 @@
     width: 390px;
     text-align: center;
     align-items: center;
-    background-color: aquamarine;
+   
 }
-
+/*  */
 .Titulo_esqueceu_3{
+
     display: flex;
     width: 390px;
     height: 187px;
     text-align: center;
     align-items: center;
     padding-bottom: 26px;
-}
 
+}
 .Titulo_esqueceu_3 > h2{
+
     font-family: Roboto;
     font-size: 45px;
     font-weight: 400;
     line-height: 52px;
+
+}
+/*  */
+
+.Senha_att_3{
+
+    margin-top: 38px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+
+}
+
+.Mensagem_shield_3{
+    display: flex;
+    margin-top: 40px;
+}
+
+.Mensagem_att_3>p{
+    margin-top: 13px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+
 }
 
 
 .continuar_esqueceu_3>button{
+
     border: none;
     margin-top: 20px;
     margin-right: 20px;
@@ -232,5 +264,10 @@
     border-radius: 8px;
     font-size: 16px;
     font-weight: 500;
-    background: linear-gradient(265.34deg, #1D4626 -100.85%, #00ECCB 52.47%)
+    background: linear-gradient(265.34deg, #1D4626 -100.85%, #00ECCB 52.47%);
+
+}
+
+.continuar_esqueceu_3{
+    margin-top: 43px;
 }
