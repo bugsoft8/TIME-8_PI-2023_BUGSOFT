@@ -171,7 +171,18 @@
     width: 340px;
     border-radius: 8px;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 500;
     background: linear-gradient(265.34deg, #1D4626 -100.85%, #00ECCB 52.47%);
 }
 
+.reenvio_esqueceu_2{
+    margin-top: 13px;
+}
+
+.link_reenviar_2{
+    text-decoration: none;
+}
+
+.voltar_esqueceu_2{
+    margin-top: 321px;
+}
