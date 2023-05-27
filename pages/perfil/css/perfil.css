@@ -1,15 +1,22 @@
-.body {
-    width: 390px;
-    background-color: #ffffff;
-}
-
-.flex_title {
+/* Components */
+.flex_avatar--title {
     display: flex;
     align-items: center;
     gap: 12px;
 }
 
-.btn_back{
+.size_container {
+    width: 160px;
+}
+/* ------------------------- */
+
+
+.body {
+    width: 390px;
+    background-color: #ffffff;
+}
+
+.btn_back {
     width: 40px;
     height: 25px;
 
@@ -24,38 +31,13 @@
     margin: 137px auto 0 auto;
     padding-top: 80px;
     border-radius: 8px;
-    
+
     position: relative;
 
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-.perfil_dados {
-
-}
-
-.dados_container {
-    height: 23px;
-    
-}
-
-.container_title {
-    width: 160px;
-    border-radius: 0 0 8px 8px;            
-    padding-left: 10px;
-}
-
-
-
-
-
-
-
-
-
-
 
 .perfil_avatar {
     width: 141px;
@@ -64,6 +46,32 @@
     position: absolute;
     left: 108px;
     top: -70px;
+}
+
+.perfil_dados {
+    margin: 20px 0;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dados_container {
+    height: 24px;
+    line-height: 24px;
+
+    display: flex;
+}
+
+.container_title {
+    border-radius: 8px 0 0 8px;
+    padding-left: 10px;
+}
+
+.container_info {
+    padding-left: 6px;
+    border-radius: 0 8px 8px 0;
 }
 
 .perfil_history>img {
