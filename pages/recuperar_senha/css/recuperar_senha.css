@@ -84,7 +84,7 @@
 
 /*  */
 
-.enviar_button_esqueceu_1 > button {
+.enviar_button_esqueceu_1 {
     border: none;
     margin-top: 20px;
     margin-right: 20px;
@@ -92,10 +92,22 @@
     width: 340px;
     border-radius: 8px;
     background: linear-gradient(265.34deg, #1D4626 -100.85%, #00ECCB 52.47%);
+    
+}
+a {
+    text-decoration: none;
 }
 
+.enviar_button_esqueceu_1 > p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #1D192B;
+    margin-top: 12px;
+}
 
-.voltar_button_esqueceu_1 > button{
+.voltar_button_esqueceu_1 {
     border: none;
     margin-top: 287px;
     height: 30px;
@@ -104,8 +116,14 @@
     background: linear-gradient(265.34deg, #1D4626 -100.85%, #00ECCB 52.47%);
 }
 
-
-
+.voltar_button_esqueceu_1 > p{
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: #1D192B;
+}
 /* ---------------------------------SENHA_2-------------------------------------- */
 
 .Esqueceu_a_senha_2{
