@@ -27,7 +27,7 @@
 
 .cart_perfil {
     width: 358px;
-    height: 563px;
+    height: 592px;
     margin: 137px auto 0 auto;
     padding-top: 80px;
     border-radius: 8px;
@@ -74,16 +74,15 @@
     border-radius: 0 8px 8px 0;
 }
 
-.perfil_history>img {
+.perfil_meta>img {
     width: 350px;
-    height: 170px;
 }
 
-.history_title>h2 {
-    margin-left: 5px;
+.meta_title {
+    margin-left: 16px;
 }
 
-.history_title>img {
-    width: 18px;
-    height: 18px;
+.meta_title>img {
+    width: 17px;
+    height: 17px;
 }
