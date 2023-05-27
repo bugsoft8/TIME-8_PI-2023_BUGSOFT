@@ -101,10 +101,95 @@
     height: 30px;
     width: 129px;
     border-radius: 8px;
-    border-radius: 8px;
     background: linear-gradient(265.34deg, #1D4626 -100.85%, #00ECCB 52.47%);
 }
 
 
 
 /* ---------------------------------SENHA_2-------------------------------------- */
+
+.Esqueceu_a_senha_2{
+    display: flex;
+    flex-direction: column;
+    height: 844px;
+    width: 390px;
+    text-align: center;
+    align-items: center;
+}
+
+.Titulo_esqueceu_2{
+    display: flex;
+    width: 390px;
+    height: 187px;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 26px;
+}
+
+.Titulo_esqueceu_2 > h2{
+    font-family: Roboto;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 52px;
+}
+
+
+.Corpo_principal_esqueceu_2{
+    position: relative;
+    top: 20px;
+}
+
+.mensagem_codigo_enviado_esqueceu_2 > p{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.input_esqueceu_2 > input{
+    margin-top: 40px;
+    height: 34px;
+    width: 358px;
+    left: 16px;
+    top: 367px;
+    border: 0.5px solid #000000;
+    border-radius: 8px;
+    padding-left: 14px;
+}
+
+.Mensagem_Instrução_esqueceu_2>p{
+    margin-top: 10px;
+    
+}
+
+.enviar_esqueceu_2 > button{
+    border: none;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 46px;
+    width: 340px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    background: linear-gradient(265.34deg, #1D4626 -100.85%, #00ECCB 52.47%);
+}
+
+.reenvio_esqueceu_2{
+    margin-top: 13px;
+    font-size: 14px;
+}
+
+.link_reenviar_2{
+    text-decoration: none;
+    color: black ;
+    font-weight: bold;
+}
+
+.voltar_esqueceu_2 > button{
+    margin-top: 321px;
+    border: none;
+    background: linear-gradient(265.34deg, #1D4626 -100.85%, #00ECCB 52.47%);
+    height: 30px;
+    width: 129px;
+    border-radius: 8px;
+}
