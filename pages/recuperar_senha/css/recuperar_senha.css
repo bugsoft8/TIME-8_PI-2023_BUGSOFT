@@ -14,23 +14,12 @@
     display: flex;
     width: 390px;
     height: 187px;
+    justify-content: center;
     align-items: center;
-    padding-left: 46px;
-    padding-bottom: 46px;
-    margin-right: 55px;
 } 
 
 .titulo_esqueceu_1 > h2 {
-    /* font-family: Roboto; */
-    display: flex;
-    margin-top: 46px;
-    font-size: 46px;
-    font-weight: 400px;
-    line-height: 57px;
     text-align: left;
-    
-    
-
 }
 
 /*  */
