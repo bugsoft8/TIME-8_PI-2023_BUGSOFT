@@ -21,3 +21,11 @@
 .color_background {
     background: linear-gradient(138.43deg, #43E97B 4.79%, #38F9D7 76.47%);
 }
+
+.color_background--white {
+    background: #ffffff;
+}
+
+.color_background--container {
+    background: #00ECCB;
+}
